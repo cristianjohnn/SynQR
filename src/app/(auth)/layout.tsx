@@ -34,15 +34,15 @@ export default function AuthLayout({
             <Image
               src="/synqr-logo.png"
               alt="Synqr Icon"
-              width={160}
-              height={160}
+              width={200}
+              height={200}
               className="auth-logo-img"
               priority
             />
-            <h1 className="text-white text-6xl font-bold tracking-tight mt-6">
+            <h1 className="text-white text-[5rem] font-extrabold tracking-tight leading-none mt-2">
               Synq<span className="text-[#7C3AED]">r</span>
             </h1>
-            <p className="text-white/70 text-lg mt-3 font-medium tracking-wide">
+            <p className="text-white/80 text-xl mt-1 font-medium tracking-wide">
               Where dev teams stay in <span className="text-[#7C3AED]">flow.</span>
             </p>
           </div>

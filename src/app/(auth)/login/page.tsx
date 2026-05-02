@@ -77,11 +77,11 @@ function LoginContent() {
           <img
             src="/synqr-logo.png"
             alt="Synqr Icon"
-            width={72}
-            height={72}
+            width={80}
+            height={80}
             style={{ objectFit: "contain", filter: "drop-shadow(0 0 20px rgba(124, 58, 237, 0.4))" }}
           />
-          <h1 className="text-white text-3xl font-bold tracking-tight mt-3">
+          <h1 className="text-white text-4xl font-extrabold tracking-tight leading-none mt-1">
             Synq<span className="text-[#7C3AED]">r</span>
           </h1>
           <p className="text-muted-foreground text-sm mt-1 font-medium">

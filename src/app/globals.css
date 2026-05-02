@@ -313,8 +313,8 @@
 }
 
 .auth-logo-img {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
   image-rendering: -webkit-optimize-contrast;
   filter: drop-shadow(0 0 50px rgba(124, 58, 237, 0.6)) drop-shadow(0 0 100px rgba(0, 255, 178, 0.2));
