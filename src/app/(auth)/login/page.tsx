@@ -76,11 +76,17 @@ function LoginContent() {
         <div className="flex flex-col items-center mb-8">
           <img
             src="/synqr-logo.png"
-            alt="Synqr"
-            width={140}
-            height={140}
-            style={{ objectFit: "contain" }}
+            alt="Synqr Icon"
+            width={72}
+            height={72}
+            style={{ objectFit: "contain", filter: "drop-shadow(0 0 20px rgba(124, 58, 237, 0.4))" }}
           />
+          <h1 className="text-white text-3xl font-bold tracking-tight mt-3">
+            Synq<span className="text-[#7C3AED]">r</span>
+          </h1>
+          <p className="text-muted-foreground text-sm mt-1 font-medium">
+            Where dev teams stay in <span className="text-[#7C3AED]">flow.</span>
+          </p>
         </div>
 
         {/* Error message */}

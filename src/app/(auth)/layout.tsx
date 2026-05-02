@@ -30,15 +30,21 @@ export default function AuthLayout({
         {/* --- Main content (z-2) --- */}
         <div className="auth-left-content">
           {/* A. Full Logo Image — the hero element */}
-          <div className="auth-logo-wrapper">
+          <div className="auth-logo-wrapper flex flex-col items-center">
             <Image
               src="/synqr-logo.png"
-              alt="Synqr — Where dev teams stay in flow"
-              width={280}
-              height={280}
+              alt="Synqr Icon"
+              width={160}
+              height={160}
               className="auth-logo-img"
               priority
             />
+            <h1 className="text-white text-6xl font-bold tracking-tight mt-6">
+              Synq<span className="text-[#7C3AED]">r</span>
+            </h1>
+            <p className="text-white/70 text-lg mt-3 font-medium tracking-wide">
+              Where dev teams stay in <span className="text-[#7C3AED]">flow.</span>
+            </p>
           </div>
 
           {/* B. Divider */}
