@@ -77,8 +77,8 @@ function LoginContent() {
           <img
             src="/synqr-logo.png"
             alt="Synqr"
-            width={120}
-            height={120}
+            width={140}
+            height={140}
             style={{ objectFit: "contain" }}
           />
         </div>

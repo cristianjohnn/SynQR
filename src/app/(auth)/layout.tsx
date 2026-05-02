@@ -15,6 +15,7 @@ export default function AuthLayout({
         <div className="aurora aurora--3" />
         <div className="aurora aurora--4" />
         <div className="aurora aurora--5" />
+        <div className="aurora aurora--6" />
 
         {/* --- Floating dot nodes (z-1) --- */}
         <span className="auth-dot auth-dot--1" />
@@ -23,6 +24,8 @@ export default function AuthLayout({
         <span className="auth-dot auth-dot--4" />
         <span className="auth-dot auth-dot--5" />
         <span className="auth-dot auth-dot--6" />
+        <span className="auth-dot auth-dot--7" />
+        <span className="auth-dot auth-dot--8" />
 
         {/* --- Main content (z-2) --- */}
         <div className="auth-left-content">
@@ -31,8 +34,8 @@ export default function AuthLayout({
             <Image
               src="/synqr-logo.png"
               alt="Synqr — Where dev teams stay in flow"
-              width={260}
-              height={260}
+              width={280}
+              height={280}
               className="auth-logo-img"
               priority
             />
