@@ -32,7 +32,7 @@ export default function AuthLayout({
           {/* A. Full Logo Image — the hero element */}
           <div className="auth-logo-wrapper flex flex-col items-center">
             <h1 className="text-white text-[5.5rem] font-extrabold tracking-tight leading-none mt-2">
-              Synq<span className="text-[#7C3AED]">r</span>
+              Sync<span className="text-[#7C3AED]">Pal</span>
             </h1>
             <p className="text-white/80 text-xl mt-1 font-medium tracking-wide">
               Where dev teams stay in <span className="text-[#7C3AED]">flow.</span>

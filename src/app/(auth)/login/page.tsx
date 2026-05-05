@@ -82,7 +82,7 @@ function LoginContent() {
             style={{ objectFit: "contain", filter: "drop-shadow(0 0 20px rgba(124, 58, 237, 0.4))" }}
           />
           <h1 className="text-white text-4xl font-extrabold tracking-tight leading-none mt-1">
-            Synq<span className="text-[#7C3AED]">r</span>
+            Sync<span className="text-[#7C3AED]">Pal</span>
           </h1>
           <p className="text-muted-foreground text-sm mt-1 font-medium">
             Where dev teams stay in <span className="text-[#7C3AED]">flow.</span>
