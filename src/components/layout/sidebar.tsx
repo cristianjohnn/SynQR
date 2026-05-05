@@ -105,7 +105,7 @@ export function Sidebar({ user }: SidebarProps) {
           {!collapsed && (
             <div className="animate-fade-in">
               <span className="text-lg font-bold tracking-tight gradient-text">
-                Synqr
+                SyncPal
               </span>
             </div>
           )}

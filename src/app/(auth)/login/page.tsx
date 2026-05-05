@@ -75,8 +75,8 @@ function LoginContent() {
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
           <img
-            src="/synqr-logo.png"
-            alt="Synqr Icon"
+            src="/syncpal-logo.png"
+            alt="SyncPal Icon"
             width={80}
             height={80}
             style={{ objectFit: "contain", filter: "drop-shadow(0 0 20px rgba(124, 58, 237, 0.4))" }}

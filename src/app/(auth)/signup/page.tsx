@@ -82,7 +82,7 @@ export default function SignUpPage() {
             Create your account
           </h1>
           <p className="text-sm text-muted-foreground mt-1">
-            Join your team on Synqr
+            Join your team on SyncPal
           </p>
         </div>
 

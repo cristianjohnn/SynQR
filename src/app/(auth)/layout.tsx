@@ -119,13 +119,13 @@ export default function AuthLayout({
         {/* Top-left branding */}
         <div className="auth-top-brand">
           <Image
-            src="/synqr-logo.png"
-            alt="Synqr"
+            src="/syncpal-logo.png"
+            alt="SyncPal"
             width={24}
             height={24}
             className="auth-top-brand-logo"
           />
-          <span className="auth-top-brand-text">Synqr</span>
+          <span className="auth-top-brand-text">SyncPal</span>
         </div>
 
         {/* Bottom credit */}

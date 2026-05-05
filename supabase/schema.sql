@@ -1,5 +1,5 @@
 -- ================================================
--- Synqr — Complete Database Schema
+-- SyncPal — Complete Database Schema
 -- Run this in your Supabase SQL Editor
 -- ================================================
 
