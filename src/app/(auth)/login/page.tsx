@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { Loader2, Eye, EyeOff, AlertCircle } from "lucide-react";
 import { toast } from "sonner";
+import { AuroraBackground } from "@/components/AuroraBackground";
 
 function LoginContent() {
   const router = useRouter();
@@ -232,8 +233,11 @@ function LoginContent() {
 
 export default function LoginPage() {
   return (
-    <Suspense fallback={<div className="flex h-screen items-center justify-center"><Loader2 className="h-6 w-6 animate-spin" /></div>}>
-      <LoginContent />
-    </Suspense>
+    <div className="relative min-h-screen w-full">
+      <AuroraBackground />
+      <Suspense fallback={<div className="flex h-screen items-center justify-center"><Loader2 className="h-6 w-6 animate-spin" /></div>}>
+        <LoginContent />
+      </Suspense>
+    </div>
   );
 }
